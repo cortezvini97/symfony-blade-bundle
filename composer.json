@@ -1,0 +1,30 @@
+{
+    "name":"cortez/symfony-blade-bundle",
+    "type": "symfony-bundle",
+    "version": "1.0.0",
+    "licence": "MIT",
+    "description": "Use template engine blade in Symfony.",
+    "authors": [
+        {
+            "name": "Vinicius Cortez",
+            "email": "cortezvinicius881@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cortez\\SymfonyBladeBundle\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cortez\\SymfonyBladeBundle\\Tests\\":"tests/"
+        }
+    },
+    "require": {
+        "php":">=8.2",
+        "symfony/config":"^6.0 || ^7.0",
+        "symfony/console":"^6.0 || ^7.0",
+        "symfony/dependency-injection":"^6.0 || ^7.0",
+        "symfony/framework-bundle":"^6.0 || 7.0"
+    }
+}

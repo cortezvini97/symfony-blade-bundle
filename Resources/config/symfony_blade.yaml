@@ -1,0 +1,3 @@
+symfony_blade:
+  dir_views: views
+  dir_cache: blade_cache
